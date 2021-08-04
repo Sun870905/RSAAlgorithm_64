@@ -12,11 +12,7 @@ public class RSAGenerator {
 
 	private Key publickey; // Public Key
 	private Key privatekey; // Private key
-	private static final BigInteger ONE = BigInteger.ONE; // Value of 1
-															// expressed as a
-															// BigInteger for
-															// ease of
-															// calculation
+	private static final BigInteger ONE = BigInteger.ONE; // Value of 1 expressed as a BigInteger for ease of calculation
 
 	/**
 	 * Object Constructor
